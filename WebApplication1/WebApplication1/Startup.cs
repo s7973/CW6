@@ -37,7 +37,6 @@ namespace WebApplication1
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DbContext"));
             });
-            services.AddScoped<DoctorRequest>();
 
             services.AddControllers();
         }
