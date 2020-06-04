@@ -1,0 +1,7 @@
+/api/enrollments/EF/promotions
+POST
+
+{
+"Studies": "Informatyka",
+"Semester": 1
+}
